@@ -1,0 +1,90 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body */
+  body {
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main container */
+  .container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  /* Button */
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Subtitle */
+  h4 {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 22px;
+
+
+  }
+  
+  /* Verse box */
+  .verse-box {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  /* Verse reference */
+  .verse-ref {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  
+  /* Mobile responsive */
+  @media (max-width: 500px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  }
